@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding:0;
+    border-radius: 15px;
+   
+   
+}
+ *::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+
+body{
+    background:#EDEEF0;
+  
+    }
+                                                    
+main{
+    width:97%;
+    margin:30px auto;
+    display:grid;
+    grid-template-rows:240px 240px 240px 480px;
+    grid-template-columns:repeat(4,1fr);
+    grid-gap:25px;
+    
+    
+   }
+
+.div1{
+   background:#293036;
+     grid-row: 1/3;
+     color:white;
+     font-size:16px;
+     text-align: center;
+     padding-top:24px;
+     font-family:sofia-pro, sans-serif;
+    box-sizing: border-box;
+    overflow:hidden
+     }
+.div1 > lottie-player {
+    padding-top:30px
+}
+
+.div2{
+    background-image: url(./images/beach-2179624_1920.jpg);
+    background-size: 100% 100%;
+    grid-column:2/4;   
+    opacity:0.8; 
+   box-sizing: border-box;
+   overflow: hidden;
+     }
+
+.box2{
+    margin-top:45px;
+    margin-left:20px;
+    background:;
+    color:#ecf0f1;
+    font-family:sofia pro,sans-serif;
+}
+.box2 > p{
+    padding-top:30px;
+    font-size:25px;
+    color:white;
+    padding-right:35px;
+}
+.box2 > i{
+    padding-top: 30px;
+}
+.div3{
+  background:white;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-family: sofia pro,sans-serif;
+  box-sizing: border-box;
+  overflow:hidden;
+
+}
+.div3>h1{
+    font-size:32px;
+    padding-top:50px;
+    font-weight:400;
+}
+.div3 > p{
+    padding-top:15px;
+    font-weight:400;
+}
+
+.div4{
+    background:white;
+    display:flex;
+    flex-flow:wrap;
+    flex-direction:row;
+    justify-content:center;
+    box-sizing:border-box;
+    overflow: hidden;
+     
+      }
+.div4 > div{
+       padding:20px;
+       flex-basis:20%;
+       
+      }
+ .div4 > .flex{
+        width:auto;
+        height:auto;
+ }
+.div4 > .pt{
+        padding-top: 43px;
+}
+.div4 > .pt1{
+       padding-bottom: 34px;
+}
+/* .div5{background: #40C2A6; */
+.div5{
+      box-sizing:border-box;
+      grid-column:3/5;
+      grid-row:2/4;
+      flex-flow:wrap;
+      display:flex;
+      flex-direction:column;
+      box-sizing: border-box;
+      margin-right: 38px;
+      overflow:hidden;
+      }
+.div5  .container {
+     color:white;
+     width:100%;
+     height:100%;
+     background:cyan;
+     background-origin:padding-box;
+     padding:19px;
+    
+} 
+.div5 .container img{
+    border-radius:50%;
+    border:5px solid transparent;
+    position:relative;
+    left:10px; 
+    box-shadow:10px 10px 30px crimson;
+}
+.div5 .container h1{
+  position:relative;
+   left:10px; 
+   padding-top:35px;
+}
+      
+.div6{
+     background-image: url(images/road-1072823_1920.jpg);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     grid-column:1/3;
+     }
+.div7{
+   background-image: url(images/bird-5965265_640.jpg);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+    grid-column:1/-1;
+     }
+.div7 p{
+    font-size: 50px;
+   position:relative;
+   left:10%;
+   padding-top:100px;
+   color:white;
+   bottom:10%;
+     }
+     .div7 marquee{
+         font-size: 20px;
+         color:white;
+         position:relative;
+         bottom:10%;
+     }
